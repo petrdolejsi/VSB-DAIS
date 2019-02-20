@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3B1A2A5-B3FE-1992-5E15-841CA105C38F" name="Body">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>DF4915B6-703A-4805-CFAE-1A816F52A476</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Poradi" id="AD8523F8-BB26-ECD1-5A2D-A63F3F4A4553">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>98A59C43-B9EE-6B53-917F-6FF789F08D51</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pocet_bodu" id="E64998FA-8AB1-3331-CB25-FAA1F9B409C4">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>7C268086-335D-60F9-9AD3-FC508D8D269B</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46B358CF-08DC-A968-0424-D2DE600971E5" name="Body_PK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>D9BCB66A-A3EC-2F4D-186B-2CFF4F56842C</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD8523F8-BB26-ECD1-5A2D-A63F3F4A4553"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

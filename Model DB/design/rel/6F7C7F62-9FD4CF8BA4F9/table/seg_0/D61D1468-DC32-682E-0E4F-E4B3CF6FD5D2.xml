@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D61D1468-DC32-682E-0E4F-E4B3CF6FD5D2" name="Vysledky">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>0D328880-4CDE-8F32-6F44-7EE4250EF130</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GP_ID" id="E456FDD9-07DF-790E-1886-F88C803A4A7C">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>C91CCF7A-6B29-C700-8DFD-F54464660485</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A3AC016-F3B3-8E76-F4B8-AB3FFAEC6254" referredColumn="377B9764-D946-0E14-6F1E-DEC6D7148B37"/>
+</associations>
+</Column>
+<Column name="Body_Poradi" id="0EBE2427-DAB7-91C1-DB97-C47319C394E1">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>C6672EED-84BA-C53E-7124-40A6B0DD22BE</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="869F41EA-68D5-90A5-42B3-62A24BC28342" referredColumn="AD8523F8-BB26-ECD1-5A2D-A63F3F4A4553"/>
+</associations>
+</Column>
+<Column name="Jezdci_ID" id="F07C182C-E9E5-C41E-65AD-7AA95DD0B9C6">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>7DFC7E7C-E861-7FE2-CF2A-BEDE9910896B</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E69B882-CDA0-3918-7C9D-1DA9FA03A23F" referredColumn="BA58D985-B84A-25F1-264C-A2272D23903D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17AB1548-EEF5-5906-C879-A8CC14B3ADF3" name="Vysledky_PK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:38:58 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E456FDD9-07DF-790E-1886-F88C803A4A7C"/>
+<colUsage columnID="0EBE2427-DAB7-91C1-DB97-C47319C394E1"/>
+<colUsage columnID="F07C182C-E9E5-C41E-65AD-7AA95DD0B9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9370A3E8-246F-930C-DD4B-E63479FB4252" name="Vysledky_Body_FK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>0F650F2C-346B-13F7-A4D2-70E13C9C8DFF</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EBE2427-DAB7-91C1-DB97-C47319C394E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AACC4C5-9143-D135-52B9-828DCF0E88DB" name="Vysledky_GP_FK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>15E7AA11-854E-B3F5-C7F7-4C6275C083EA</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E456FDD9-07DF-790E-1886-F88C803A4A7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98CA3A75-8F5B-0135-AD32-C0410BFF1D12" name="Vysledky_Jezdci_FK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>2762BC56-4995-7BD4-A39E-0885EBFB6B8C</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F07C182C-E9E5-C41E-65AD-7AA95DD0B9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

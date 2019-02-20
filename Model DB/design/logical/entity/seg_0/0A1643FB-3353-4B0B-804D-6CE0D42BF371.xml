@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A1643FB-3353-4B0B-804D-6CE0D42BF371" name="Jezdci">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 20:56:35 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="F3281325-E57B-9219-B272-9D6BF93A895C">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 20:56:40 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jmeno" id="93C1BD29-EBB0-2E28-4650-7DA52AFBA667">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 20:56:53 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prijmeni" id="B61E5FF4-6B8A-5E04-9F52-85D43ED02246">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 20:57:04 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Startovni cislo" id="4EB73656-6AD2-472F-7C91-54313C9137B1">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 20:57:14 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum narozeni" id="F8C5A5D4-7DF4-C2ED-4E3F-24D7F42B0370">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 20:57:35 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tymy ID" id="B9078A95-3C81-44D0-E049-90C20E1435D0">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:01:02 UTC</createdTime>
+<generatorID>318D2BF3-EA40-7458-A571-1AFE559342B1</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<referedAttribute>770D0FA1-8AAD-FFB0-235A-7E0607D26B55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Staty ID" id="BD46E176-0ABC-7112-862E-A7D106DB94C5">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:01:02 UTC</createdTime>
+<generatorID>9E04FB95-4B68-AB90-1031-78E566F6B17D</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<referedAttribute>857164EB-FDF2-D958-AFDF-E0AE8636F1D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motory Seriove cislo" id="AA895DD8-892E-55F6-0B37-72C47DCBC25F">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:29:10 UTC</createdTime>
+<generatorID>5AAC8FE4-D283-04DE-C5AA-447F2427E7AE</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<referedAttribute>C22D019E-A366-B2AF-37B6-41C92788710A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62C8A34A-458C-946A-F247-C26226B00AE4" name="Jezdci_PK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 20:56:49 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3281325-E57B-9219-B272-9D6BF93A895C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

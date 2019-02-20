@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Jezdci_Staty_FK" directorySegmentName="seg_0" id="9E04FB95-4B68-AB90-1031-78E566F6B17D">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:01:02 UTC</createdTime>
+<generatorID>C8F86162-FE37-7C5E-4E7A-62B7972900E1</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<sourcePk>8BDC0D2D-9DE9-A4EC-F60B-B3E8349DF228</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B2A4EDB-B0E4-E69A-5AF9-5580686B1CA3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0A1643FB-3353-4B0B-804D-6CE0D42BF371</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tymy_Vyrobce_motoru_FK" directorySegmentName="seg_0" id="3A19FE64-F74C-76DA-3BFB-E566785898E0">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:01:02 UTC</createdTime>
+<generatorID>1652CB6D-3C86-8B59-8DD9-3044A2648BDC</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<sourcePk>009DDD4E-5A85-26C8-C5C7-B899C2CD93FC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD488CE8-648F-26F7-C8E8-12EEBA545DAA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>18F92379-E766-EFF9-D65A-8F9134EB43FE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

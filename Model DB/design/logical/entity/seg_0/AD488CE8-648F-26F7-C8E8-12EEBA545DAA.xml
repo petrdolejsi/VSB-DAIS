@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD488CE8-648F-26F7-C8E8-12EEBA545DAA" name="Vyrobce motoru">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-11-30 21:29:57 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E8390C0D-2D12-E4DD-2A11-4C6F8578A771">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-11-30 21:31:00 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazev" id="65B2AC11-0C9C-3CC5-8CAB-DFADDB809A93">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-11-30 21:31:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="009DDD4E-5A85-26C8-C5C7-B899C2CD93FC" name="Vyrobce_motoru_PK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-11-30 21:31:09 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8390C0D-2D12-E4DD-2A11-4C6F8578A771</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

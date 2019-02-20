@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Jezdci_Motory_FK" directorySegmentName="seg_0" id="5AAC8FE4-D283-04DE-C5AA-447F2427E7AE">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:29:10 UTC</createdTime>
+<generatorID>C7EF8E08-DAD5-0A64-57AE-520FCB2E71E4</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<sourcePk>98DA4EF5-82E9-0E4A-AFF5-7A44CD4DF162</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F680C2A1-0325-0BD5-5364-3D1D3B701234</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0A1643FB-3353-4B0B-804D-6CE0D42BF371</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

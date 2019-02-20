@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AuctionDesktopApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionStringMsSql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">data source = dbsys.cs.vsb.cz\STUDENT; initial catalog = abc123; user id = abc123; password = aaa</Value>
+    </Setting>
+    <Setting Name="ConnectionStringOracle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=dbsys.cs.vsb.cz)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=oracle.dbsys.cs.vsb.cz)));User Id=abc123;Password=aaa;Connection Timeout=45;</Value>
+    </Setting>
+    <Setting Name="DBMS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mssql</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

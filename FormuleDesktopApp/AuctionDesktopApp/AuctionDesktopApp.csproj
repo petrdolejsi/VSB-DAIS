@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D26272D3-0004-4C91-9CD9-F50F21BAC318}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AuctionDesktopApp</RootNamespace>
+    <AssemblyName>AuctionDesktopApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.1.2400\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Session.cs" />
+    <Compile Include="Database\Auction.cs" />
+    <Compile Include="Database\Category.cs" />
+    <Compile Include="Database\MsSql\AuctionTable.cs" />
+    <Compile Include="Database\MsSql\CategoryTable.cs" />
+    <Compile Include="Database\MsSql\Database.cs" />
+    <Compile Include="Database\MsSql\UserTable.cs" />
+    <Compile Include="Database\Oracle\AuctionTable.cs" />
+    <Compile Include="Database\Oracle\CategoryTable.cs" />
+    <Compile Include="Database\Oracle\Database.cs" />
+    <Compile Include="Database\Oracle\Extensions.cs" />
+    <Compile Include="Database\Oracle\UserTable.cs" />
+    <Compile Include="Database\Proxy\AuctionTableProxy.cs" />
+    <Compile Include="Database\Proxy\CategoryTableProxy.cs" />
+    <Compile Include="Database\Proxy\DatabaseProxy.cs" />
+    <Compile Include="Database\Proxy\UserTableProxy.cs" />
+    <Compile Include="Database\User.cs" />
+    <Compile Include="Data\Body.cs" />
+    <Compile Include="Data\dao_sqls\Database.cs" />
+    <Compile Include="Data\dao_sqls\EvidenceBodu.cs" />
+    <Compile Include="Data\dao_sqls\EvidenceGP.cs" />
+    <Compile Include="Data\dao_sqls\EvidenceJezdcu.cs" />
+    <Compile Include="Data\dao_sqls\EvidenceMotoru.cs" />
+    <Compile Include="Data\dao_sqls\EvidenceStatu.cs" />
+    <Compile Include="Data\dao_sqls\EvidenceTymu.cs" />
+    <Compile Include="Data\dao_sqls\EvidenceUzivatelu.cs" />
+    <Compile Include="Data\dao_sqls\EvidenceVyrobcuMotoru.cs" />
+    <Compile Include="Data\dao_sqls\EvidenceVysledku.cs" />
+    <Compile Include="Data\GP.cs" />
+    <Compile Include="Data\Jezdci.cs" />
+    <Compile Include="Data\Motory.cs" />
+    <Compile Include="Data\Staty.cs" />
+    <Compile Include="Data\Tymy.cs" />
+    <Compile Include="Data\Uzivatel.cs" />
+    <Compile Include="Data\Vyrobce_motoru.cs" />
+    <Compile Include="Data\Vysledky.cs" />
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAuctionDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAuctionDetail.Designer.cs">
+      <DependentUpon>FormAuctionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAuctionGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAuctionGrid.Designer.cs">
+      <DependentUpon>FormAuctionGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCategoryDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCategoryDetail.Designer.cs">
+      <DependentUpon>FormCategoryDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCategoryGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCategoryGrid.Designer.cs">
+      <DependentUpon>FormCategoryGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUserDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUserDetail.Designer.cs">
+      <DependentUpon>FormUserDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUserGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUserGrid.Designer.cs">
+      <DependentUpon>FormUserGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templates\FormDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Templates\FormDetail.Designer.cs">
+      <DependentUpon>FormDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\FormGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Templates\FormGrid.Designer.cs">
+      <DependentUpon>FormGrid.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAuctionDetail.resx">
+      <DependentUpon>FormAuctionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAuctionGrid.resx">
+      <DependentUpon>FormAuctionGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCategoryDetail.resx">
+      <DependentUpon>FormCategoryDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCategoryGrid.resx">
+      <DependentUpon>FormCategoryGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUserDetail.resx">
+      <DependentUpon>FormUserDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUserGrid.resx">
+      <DependentUpon>FormUserGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Templates\FormDetail.resx">
+      <DependentUpon>FormDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Templates\FormGrid.resx">
+      <DependentUpon>FormGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewRecord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reload2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

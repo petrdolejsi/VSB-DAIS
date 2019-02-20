@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C5F8C23-A1A6-0EA5-399F-6BCAE3C7CF37" name="GP">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>1A861284-0BC6-62AE-2C97-8D229ECB1223</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="377B9764-D946-0E14-6F1E-DEC6D7148B37">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>4F779624-23FE-55F0-C6A1-770319E491F4</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazev" id="578653D4-A58D-A531-082B-D1DE07FEE900">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>DF6101A7-2E8F-F11C-3915-EBAD8ABE497F</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="61C16C61-5470-1E8E-9A3C-CD3E7EE77417">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>6E058499-24BC-3D8B-C2EA-C762A3ECBAC9</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Delka_okruhu" id="FBD450A0-702B-18BC-E8AC-1821F5262A58">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>BCD54E2D-F644-C32A-7B89-243CC33035A9</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pocet_kol" id="B12E0838-A111-E9A0-14A6-0676257EA20D">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>DFE58654-E420-F80B-CDC0-1E58647092DA</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staty_ID" id="2F766328-1EE0-4717-A96B-B0DC6FC25323">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>DABC88AA-400D-E78B-113C-779499B2BF2F</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA36671E-8248-BC1F-A4D7-CDD03513011C" referredColumn="3E457FD7-B085-209E-A432-8588B0B2DAE5"/>
+</associations>
+</Column>
+<Column name="Uzivatel_ID" id="77975FE8-9FEB-E033-3E2C-12EE95061DBC">
+<createdBy>Petrd</createdBy>
+<createdTime>2017-04-03 20:45:05 UTC</createdTime>
+<generatorID>8AA16353-2201-733C-3037-C2AFCE94F1AB</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9952584C-1073-3FF7-7495-DB2FAA4F9738" referredColumn="42FE60DA-798D-F874-758C-B538178719DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF61F90A-0979-7D48-72D0-290711CE39CE" name="GP_PK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>27A3976E-1591-0936-C67A-969E83F238C3</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="377B9764-D946-0E14-6F1E-DEC6D7148B37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="737C3F84-0181-0D07-1370-87AF2BCCC904" name="GP__IDX">
+<createdBy>Petrd</createdBy>
+<createdTime>2017-04-03 20:45:05 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B45E4D77-E07A-CAD6-B41C-D01111919BEB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="77975FE8-9FEB-E033-3E2C-12EE95061DBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F88963C5-33D2-B958-1085-4AEAE1B92AE4" name="GP_Staty_FK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>6176D69B-58A4-E8AE-13EC-A2AF66EDE51A</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F766328-1EE0-4717-A96B-B0DC6FC25323"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E297931-216A-42F6-C3C8-FED815AB67B4" name="GP_Uzivatel_FK">
+<createdBy>Petrd</createdBy>
+<createdTime>2017-04-03 20:45:05 UTC</createdTime>
+<generatorID>B45E4D77-E07A-CAD6-B41C-D01111919BEB</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77975FE8-9FEB-E033-3E2C-12EE95061DBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

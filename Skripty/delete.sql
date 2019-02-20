@@ -1,0 +1,9 @@
+DROP TABLE dbo.Vysledky;
+DROP TABLE dbo.GP;
+DROP TABLE dbo.Body;
+DROP TABLE dbo.Jezdci;
+DROP TABLE dbo.Motory;
+DROP TABLE dbo.Tymy;
+DROP TABLE dbo.Uzivatel;
+DROP TABLE dbo.Vyrobce_motoru;
+DROP TABLE dbo.Staty;

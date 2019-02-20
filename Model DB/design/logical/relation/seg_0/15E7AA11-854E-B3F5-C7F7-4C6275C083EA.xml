@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vysledky_GP_FK" directorySegmentName="seg_0" id="15E7AA11-854E-B3F5-C7F7-4C6275C083EA">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:01:02 UTC</createdTime>
+<generatorID>666AED96-E76F-8DA7-ED4B-434A5BD7E68B</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<sourcePk>27A3976E-1591-0936-C67A-969E83F238C3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1A861284-0BC6-62AE-2C97-8D229ECB1223</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D328880-4CDE-8F32-6F44-7EE4250EF130</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

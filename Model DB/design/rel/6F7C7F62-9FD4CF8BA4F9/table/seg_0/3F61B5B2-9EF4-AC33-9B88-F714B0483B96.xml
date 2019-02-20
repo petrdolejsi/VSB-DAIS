@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F61B5B2-9EF4-AC33-9B88-F714B0483B96" name="Jezdci">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>0A1643FB-3353-4B0B-804D-6CE0D42BF371</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BA58D985-B84A-25F1-264C-A2272D23903D">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>F3281325-E57B-9219-B272-9D6BF93A895C</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jmeno" id="A26EA711-EABB-A215-BC02-A9F037F0770C">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>93C1BD29-EBB0-2E28-4650-7DA52AFBA667</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prijmeni" id="57AF7A00-CE12-791C-0833-ACDE8AA608AA">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>B61E5FF4-6B8A-5E04-9F52-85D43ED02246</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Startovni_cislo" id="CEBF013F-9584-0CAF-087C-F5AAD33B9F1F">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>4EB73656-6AD2-472F-7C91-54313C9137B1</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_narozeni" id="D44A4F09-2BE7-DAEE-0406-76075E122813">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>F8C5A5D4-7DF4-C2ED-4E3F-24D7F42B0370</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tymy_ID" id="AA85BF68-0A2A-3665-E6E6-9E070CBAF3A6">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>B9078A95-3C81-44D0-E049-90C20E1435D0</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92A5DA2D-F835-CEEE-C03D-ADDCBC2C1502" referredColumn="2B916492-F7AD-71C7-3FA5-7346975C7C5F"/>
+</associations>
+</Column>
+<Column name="Staty_ID" id="03DC3249-F265-504D-E693-92AFFB147890">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>BD46E176-0ABC-7112-862E-A7D106DB94C5</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="477266CF-A375-B982-15F8-AF214522C04B" referredColumn="3E457FD7-B085-209E-A432-8588B0B2DAE5"/>
+</associations>
+</Column>
+<Column name="Motory_Seriove_cislo" id="F3B420AC-6303-61CA-0B1B-83577538AA11">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:29:04 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7EF8E08-DAD5-0A64-57AE-520FCB2E71E4" referredColumn="BE1AE149-6CAD-7774-47BC-5154A4D5DC82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAC8098D-8A80-1941-1D3D-EE69AFC4EB43" name="Jezdci_PK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>62C8A34A-458C-946A-F247-C26226B00AE4</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA58D985-B84A-25F1-264C-A2272D23903D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E648E1BA-84C2-D019-9D59-725DFB18202D" name="Jezdci__IDX">
+<createdBy>Petrd</createdBy>
+<createdTime>2017-04-03 20:45:05 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5AAC8FE4-D283-04DE-C5AA-447F2427E7AE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F3B420AC-6303-61CA-0B1B-83577538AA11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D587CC9C-9B84-590B-F3EB-219EE811841E" name="Jezdci_Staty_FK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>9E04FB95-4B68-AB90-1031-78E566F6B17D</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03DC3249-F265-504D-E693-92AFFB147890"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C797C6A-6BE4-A58C-430B-DA370EF7832F" name="Jezdci_Tymy_FK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>318D2BF3-EA40-7458-A571-1AFE559342B1</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA85BF68-0A2A-3665-E6E6-9E070CBAF3A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37C63C33-D80A-E0B8-53D9-836D5733974E" name="Jezdci_Motory_FK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:29:04 UTC</createdTime>
+<generatorID>98DA4EF5-82E9-0E4A-AFF5-7A44CD4DF162</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3B420AC-6303-61CA-0B1B-83577538AA11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

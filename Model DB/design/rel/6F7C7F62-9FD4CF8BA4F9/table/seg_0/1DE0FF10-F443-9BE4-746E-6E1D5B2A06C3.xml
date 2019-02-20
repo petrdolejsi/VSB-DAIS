@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DE0FF10-F443-9BE4-746E-6E1D5B2A06C3" name="Motory">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>F680C2A1-0325-0BD5-5364-3D1D3B701234</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Seriove_cislo" id="BE1AE149-6CAD-7774-47BC-5154A4D5DC82">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>C22D019E-A366-B2AF-37B6-41C92788710A</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pocet_pouziti" id="4D391AE9-DF8D-E5FA-C934-E38A5D798018">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 22:31:21 UTC</createdTime>
+<generatorID>17F7D3C2-3D5E-4017-284C-7E8A7E2497E4</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DEE7B04-4F42-325C-E0FE-BE9D7AE1B0F8" name="Motory_PK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:28:58 UTC</createdTime>
+<generatorID>98DA4EF5-82E9-0E4A-AFF5-7A44CD4DF162</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE1AE149-6CAD-7774-47BC-5154A4D5DC82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

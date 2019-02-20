@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D328880-4CDE-8F32-6F44-7EE4250EF130" name="Vysledky">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 20:59:46 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GP ID" id="C91CCF7A-6B29-C700-8DFD-F54464660485">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:01:02 UTC</createdTime>
+<generatorID>15E7AA11-854E-B3F5-C7F7-4C6275C083EA</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<referedAttribute>4F779624-23FE-55F0-C6A1-770319E491F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Body Poradi" id="C6672EED-84BA-C53E-7124-40A6B0DD22BE">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:01:02 UTC</createdTime>
+<generatorID>0F650F2C-346B-13F7-A4D2-70E13C9C8DFF</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<referedAttribute>98A59C43-B9EE-6B53-917F-6FF789F08D51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jezdci ID" id="7DFC7E7C-E861-7FE2-CF2A-BEDE9910896B">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:01:02 UTC</createdTime>
+<generatorID>2762BC56-4995-7BD4-A39E-0885EBFB6B8C</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<referedAttribute>F3281325-E57B-9219-B272-9D6BF93A895C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E30D72F8-56D8-B630-2FF6-DD87F212B6B6" name="Vysledky PK">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:39:10 UTC</createdTime>
+<generatorID>17AB1548-EEF5-5906-C879-A8CC14B3ADF3</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C91CCF7A-6B29-C700-8DFD-F54464660485</attributeRef>
+<attributeRef>C6672EED-84BA-C53E-7124-40A6B0DD22BE</attributeRef>
+<attributeRef>7DFC7E7C-E861-7FE2-CF2A-BEDE9910896B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

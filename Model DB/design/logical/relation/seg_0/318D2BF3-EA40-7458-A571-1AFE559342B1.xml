@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Jezdci_Tymy_FK" directorySegmentName="seg_0" id="318D2BF3-EA40-7458-A571-1AFE559342B1">
+<createdBy>Petrd</createdBy>
+<createdTime>2016-12-03 21:01:02 UTC</createdTime>
+<generatorID>587242C0-7293-9B07-47FA-0A9619D29964</generatorID>
+<ownerDesignName>design</ownerDesignName>
+<engineerTo>
+<item key="6F7C7F62-DBC9-A4ED-A392-9FD4CF8BA4F9" value="true"/>
+</engineerTo>
+<sourcePk>2211FD01-D56E-0C10-5431-2D2FDE5912CB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18F92379-E766-EFF9-D65A-8F9134EB43FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0A1643FB-3353-4B0B-804D-6CE0D42BF371</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
